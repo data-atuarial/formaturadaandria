@@ -1,3 +1,43 @@
-body {
-    
+img {
+    max-width: 60%;
+}
+
+.tamo-junto {
+    content: url('img/movel/04-junto-logo-ufrgs.jpg');
+}
+.vestibular {
+    content: url('img/movel/01-vestibular.jpg');
+}
+.nem-tudo-sao-flores {
+    content: url('img/movel/02-nem-tudo-sao-flores.jpg');
+}
+.gatuaria-01 {
+    content: url('img/movel/03-gatuaria.jpg');
+}
+.gatuaria-02 {
+    content: url('img/movel/03-gatuaria-leitura.jpg');
+}
+.formanda {
+    content: url('img/movel/05-formanda.jpg');
+}
+
+@media only screen and (min-width: 400px) {
+    .tamo-junto {
+        content: url('img/04-junto-logo-ufrgs.jpg');
+    }
+    .vestibular {
+        content: url('img/01-vestibular.jpg');
+    }
+    .nem-tudo-sao-flores {
+        content: url('img/02-nem-tudo-sao-flores.jpg');
+    }
+    .gatuaria-01 {
+        content: url('img/03-gatuaria.jpg');
+    }
+    .gatuaria-02 {
+        content: url('img/03-gatuaria-leitura.jpg');
+    }
+    .formanda {
+        content: url('img/05-formanda.jpg');
+    }
 }
