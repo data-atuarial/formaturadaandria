@@ -1,12 +1,22 @@
 img {
     width: 400px;
-    height: 200px;
+    height: auto;
 }
+
+
+.parallax-container {
+  height: 300px;
+}
+        
 
 @media only screen and (min-width: 600px) {
   img {
     max-width: 60%;
-    height: 300px;
+    height: auto;
+  }
+    
+  .parallax-container {
+    height: 350px;
   }
 }
 
